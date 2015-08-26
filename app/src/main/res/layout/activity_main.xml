@@ -14,7 +14,8 @@
         android:id="@+id/textView"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="29dp" />
+        android:layout_marginTop="29dp"
+        android:textColor="#FFFFCC" />
 
 
     <ImageButton
@@ -23,10 +24,10 @@
         android:id="@+id/imageButtonTruck"
         android:src="@mipmap/truck"
         android:background="@null"
-        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/imageButtonCar"
         android:layout_alignLeft="@+id/imageButtonCar"
         android:layout_alignStart="@+id/imageButtonCar"
-        android:layout_marginBottom="81dp" />
+        android:layout_marginTop="36dp" />
 
 
     <ImageButton
@@ -49,4 +50,13 @@
         android:layout_alignEnd="@+id/textView"
         android:src="@mipmap/bike"
          />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/vechicle_button"
+        android:id="@+id/vechicle_button"
+        android:layout_below="@+id/imageButtonTruck"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp" />
 </RelativeLayout>
